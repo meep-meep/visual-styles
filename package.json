@@ -1,0 +1,22 @@
+{
+  "name": "mm-visual-styles",
+  "version": "0.0.1",
+  "description": "styling data for meep-meep interfaces",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meep-meep/visual-styles.git"
+  },
+  "keywords": [
+    "meep-meep"
+  ],
+  "author": "Joachim Revol-Tissot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meep-meep/visual-styles/issues"
+  },
+  "homepage": "https://github.com/meep-meep/visual-styles"
+}
