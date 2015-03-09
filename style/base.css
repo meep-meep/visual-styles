@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+    background: #eee;
+    color: #444;
+    font-size: 14px;
+}
+
+/*            .logo {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('/static/images/logo.png');
+    margin-right: 5px;
+}
+*/
+.meep-meep {
+    color: rgb(253, 253, 198);
+}
+
+.title {
+    padding-left: 10px;
+    line-height: 36px;
+    color: white;
+    background: black;
+    font-size: 17px;
+}
+
+.section-title {
+    color: #444;
+    background: rgb(230, 219, 219);
+    line-height: 36px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.button {
+    cursor: pointer;
+    color: white;
+}
+
+.tag,
+.button {
+    text-decoration: none;
+    text-align: center;
+    border: 0;
+    line-height: 36px;
+    padding: 0 12px 0 12px;
+    border-radius: 3px;
+}
+
+.form-label {
+    text-align: right;
+    line-height: 23px;
+}
+
+.label-group {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+
+.action {
+    background: #5362b9;
+}
+
+.form-label {
+    text-align: right;
+    line-height: 23px;
+}
+
+.label-group {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.table-line {
+    line-height: 36px;
+}
+
+.table-header,
+.section-title {
+    margin-bottom: 2px;
+    color: #444;
+    background: rgb(230, 219, 219);
+    line-height: 36px;
+    font-size: 14px;
+}
+
+.section-title {
+    padding-left: 10px;
+}
+
+.form-text-field {
+    line-height: 14px;
+    border: 2px solid transparent;
+    color: #5362b9;
+}
+
+.form-text-field:focus {
+    border: 2px solid #eee;
+    padding-left: 1px;
+    outline: none;
+}
+
+.form-text-field::-webkit-input-placeholder {
+    color: #ddd;
+    font-weight: normal;
+    padding-top: 2px;
+}
+
+.form-text-field:-moz-placeholder {
+    color: #ddd;
+    font-weight: normal;
+    padding-top: 2px;
+}
+
+.form-text-field::-moz-placeholder {
+    color: #ddd;
+    font-weight: normal;
+    padding-top: 2px;
+}
+
+.form-text-field:-ms-input-placeholder {
+    color: #ddd;
+    font-weight: normal;
+    padding-top: 2px;
+}
+
+.title {
+    padding-left: 10px;
+    line-height: 36px;
+    color: white;
+    background: black;
+    font-size: 17px;
+}

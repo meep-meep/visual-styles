@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/meep-meep/visual-styles/issues"
   },
-  "homepage": "https://github.com/meep-meep/visual-styles"
+  "homepage": "https://github.com/meep-meep/visual-styles",
+  "dependencies": {
+    "express": "^4.12.2"
+  }
 }
