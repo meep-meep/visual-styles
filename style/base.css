@@ -3,7 +3,6 @@ body {
     padding: 0;
 
     font-family: sans-serif;
-    background: #eee;
     color: #444;
     font-size: 14px;
 }
@@ -39,14 +38,16 @@ body {
 .button {
     cursor: pointer;
     color: white;
+    font-size: 14px;
 }
 
 .tag,
 .button {
+    display: inline-block;
     text-decoration: none;
     text-align: center;
     border: 0;
-    line-height: 36px;
+    line-height: 33px;
     padding: 0 12px 0 12px;
     border-radius: 3px;
 }
@@ -86,7 +87,6 @@ body {
     color: #444;
     background: rgb(230, 219, 219);
     line-height: 36px;
-    font-size: 14px;
 }
 
 .section-title {
@@ -97,6 +97,7 @@ body {
     line-height: 14px;
     border: 2px solid transparent;
     color: #5362b9;
+    font-size: 14px;
 }
 
 .form-text-field:focus {
