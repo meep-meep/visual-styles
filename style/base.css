@@ -39,6 +39,7 @@ body {
     cursor: pointer;
     color: white;
     font-size: 14px;
+    user-select: none;
 }
 
 .tag,
@@ -64,6 +65,7 @@ body {
 
 
 .action {
+    color: #f8f8f8;
     background: #5362b9;
 }
 
@@ -133,7 +135,7 @@ body {
 .title {
     padding-left: 10px;
     line-height: 36px;
-    color: white;
+    color: #f8f8f8;
     background: black;
     font-size: 17px;
 }
