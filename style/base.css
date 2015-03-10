@@ -3,8 +3,10 @@ body {
     padding: 0;
 
     font-family: sans-serif;
-    color: #444;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
     font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 /*            .logo {
@@ -16,10 +18,12 @@ body {
 }
 */
 .meep-meep {
-    color: rgb(253, 253, 198);
+    letter-spacing: -0.1em;
+    color: #888;
 }
 
 .title {
+    margin-bottom: 10px;
     padding-left: 10px;
     line-height: 36px;
     color: white;
@@ -38,11 +42,13 @@ body {
 .button {
     cursor: pointer;
     color: white;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.8);
     font-size: 14px;
     -webkit-user-select: none;          
     -moz-user-select: none;          
     -ms-user-select: none;
     user-select: none;
+    letter-spacing: 0.06em;
 }
 
 .tag,
@@ -69,12 +75,7 @@ body {
 
 .action {
     color: #f8f8f8;
-    background: #5362b9;
-}
-
-.form-label {
-    text-align: right;
-    line-height: 23px;
+    background: #4C4C4C;
 }
 
 .label-group {
@@ -90,6 +91,7 @@ body {
 .section-title {
     margin-bottom: 2px;
     color: #444;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
     background: rgb(230, 219, 219);
     line-height: 36px;
 }
@@ -101,8 +103,14 @@ body {
 .form-text-field {
     line-height: 14px;
     border: 2px solid transparent;
-    color: #5362b9;
+    color: #999;
     font-size: 14px;
+    letter-spacing: 0.06em;
+    border-radius: 3px;
+}
+
+.form-text-field:hover {
+    border: 2px solid #fafafa;
 }
 
 .form-text-field:focus {
@@ -139,6 +147,7 @@ body {
     padding-left: 10px;
     line-height: 36px;
     color: #f8f8f8;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.8);
     background: black;
     font-size: 17px;
 }
