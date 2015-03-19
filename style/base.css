@@ -83,19 +83,12 @@ body {
     vertical-align: baseline;
 }
 
-.table-line {
-    line-height: 36px;
+.table {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
-.table-line:nth-child(2n) {
-    background: rgba(0, 0, 0, 0.01);
-}
 
-.table-header {
-    display: flex;
+.table-column-header {
     background: rgb(242, 242, 242);
     line-height: 20px;
 }
@@ -106,10 +99,16 @@ body {
 }
 
 .table-item {
+    line-height: 36px;
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
     padding: 0;
 }
+
+.table-item:nth-child(2n) {
+    background: rgba(0, 0, 0, 0.01);
+}
+
 
 .section-title {
     margin-bottom: 2px;
