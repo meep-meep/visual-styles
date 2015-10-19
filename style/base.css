@@ -88,9 +88,15 @@ body {
 }
 
 
+.table-column {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
 .table-column-header {
     background: rgb(242, 242, 242);
     line-height: 20px;
+    border-bottom: 2px solid white;
 }
 
 .table-column-header .table-item {
@@ -100,15 +106,11 @@ body {
 
 .table-item {
     line-height: 36px;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
     padding: 0;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
 }
 
 .table-item:nth-child(2n) {
-    background: rgba(0, 0, 0, 0.01);
+    background: rgba(0, 0, 0, 0.02);
 }
 
 
